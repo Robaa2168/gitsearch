@@ -1,7 +1,4 @@
-export class Repo {
-    user: any;
-  userRepos:any;
-  username: string = 'robaa2168'
-  imageWidth: number = 150;
-  imageHeight: number = 200;
+export class User {
+    constructor(public name:string, public login: string, public avatar_url:string, public public_repos:number , public html_url: string,public created_at:Date, public followers:number ,public following:number){
+    }
 }
