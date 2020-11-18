@@ -15,7 +15,6 @@ import { BodyComponent } from './body/body.component';
   declarations: [
     AppComponent,
     DateCountPipe,
-    ProfileComponent,
     RepoComponent,
     HighlightDirective,
     BodyComponent,
